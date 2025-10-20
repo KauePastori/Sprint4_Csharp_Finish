@@ -1,0 +1,78 @@
+{
+  "info": {
+    "name": "Sprint3WinForms API",
+    "_postman_id": "5a9f1e2d-1234-4f00-aaaa-000000000001",
+    "description": "Coleção para testar CRUD e LINQ da API Apostadores",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET - Listar todos",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/Apostadores"
+      }
+    },
+    {
+      "name": "GET - Por Id",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/Apostadores/1"
+      }
+    },
+    {
+      "name": "POST - Criar",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"nome\": \"Maria\", \"saldo\": 120.5, \"dataCadastro\": \"2025-01-20T00:00:00\"}"
+        },
+        "url": "{{baseUrl}}/api/Apostadores"
+      }
+    },
+    {
+      "name": "PUT - Atualizar (id=1)",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\": 1, \"nome\": \"Maria Silva\", \"saldo\": 300, \"dataCadastro\": \"2025-01-15T00:00:00\"}"
+        },
+        "url": "{{baseUrl}}/api/Apostadores/1"
+      }
+    },
+    {
+      "name": "DELETE - Remover (id=1)",
+      "request": {
+        "method": "DELETE",
+        "url": "{{baseUrl}}/api/Apostadores/1"
+      }
+    },
+    {
+      "name": "GET - Top (LINQ)",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/Apostadores/top?minSaldo=0&take=5"
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:5199"
+    }
+  ]
+}
