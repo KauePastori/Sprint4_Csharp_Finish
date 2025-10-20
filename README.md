@@ -188,15 +188,14 @@ Veja os **diagramas detalhados** em [`[docs/architecture.md`](docs/architecture.
 
 ---
 
-## 📄 Licença
-
-Uso acadêmico. Adapte livremente para fins educacionais.
 
 ## 👥 Equipe
 
-![Kauê Pastori Teixeira](https://img.shields.io/badge/Kau%C3%AA%20Pastori%20Teixeira-111?style=for-the-badge&labelColor=000)
-![Nicolas Boni](https://img.shields.io/badge/Nicolas%20Boni-111?style=for-the-badge&labelColor=000)
-![Rodrigo Viana](https://img.shields.io/badge/Rodrigo%20Viana-111?style=for-the-badge&labelColor=000)
-![Enzo Sartorelli](https://img.shields.io/badge/Enzo%20Sartorelli-111?style=for-the-badge&labelColor=000)
-![Eduardo Nistal](https://img.shields.io/badge/Eduardo%20Nistal-111?style=for-the-badge&labelColor=000)
+| Integrante |
+|---|
+| **Kauê Pastori Teixeira** |
+| **Nicolas Boni** |
+| **Rodrigo Viana** |
+| **Enzo Sartorelli** |
+| **Eduardo Nistal** |
 
