@@ -155,7 +155,7 @@ Importe a coleção no Postman: *File → Import → Raw text/Upload → selecio
 - **DbContext** mapeia `Apostador` e aplica _seed_.
 - **Swagger** documenta e permite testar a API.
 
-Veja os **diagramas detalhados** em [`[docs/architecture.md`](docs/architecture.md](https://github.com/KauePastori/Sprint4_Csharp_Finish/blob/main/architecture.md)).
+Veja os **diagramas detalhados** em [`[docs/architecture.md`](docs/architecture.md](https://github.com/KauePastori/Sprint4_Csharp_Finish/blob/main/architecture.md).
 
 ---
 
