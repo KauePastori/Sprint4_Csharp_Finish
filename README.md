@@ -2,7 +2,7 @@
 # Sprint3WinForms (API ASP.NET Core + EF Core)
 
 > API Web **ASP.NET Core 8** com **Entity Framework Core (SQLite)**, **Swagger/OpenAPI** e **consultas LINQ** para o domínio de **Apostadores**.  
-> Projeto preparado para avaliação acadêmica (Sprint 4) com documentação, diagramas e coleção Postman.
+> (Sprint 4) com documentação, diagramas e coleção Postman.
 
 ---
 
@@ -13,10 +13,8 @@
 - **EF Core (SQLite)** com _seed_ inicial e `DbContext` organizado
 - **Consultas LINQ** (filtros, ordenações, agregações)
 - **Camadas limpas**: `Api` (Controllers/DTOs), `Models` (Entidades/DbContext), `Services` (regras simples)
-- **Pronto para GitHub**: README completo + diagramas Mermaid
+- README completo + diagramas Mermaid
 - **Coleção Postman** para testes rápidos
-
-> Observação: publicação em Cloud e integrações externas **não são obrigatórias** no seu escopo e podem ser removidas/ignoradas. Caso opte por demonstrar integrações, há exemplos simples com ViaCEP e Chuck Norris (desativáveis).
 
 ---
 
@@ -27,7 +25,7 @@
 - **Persistência**: EF Core + **SQLite** (arquivo local)
 - **Documentação**: Swagger/OpenAPI (Swashbuckle)
 - **Testes manuais**: Postman (coleção incluída)
-- **Diagramas**: Mermaid (renderiza no GitHub)
+- **Diagramas**: Mermaid
 
 ---
 
@@ -182,12 +180,11 @@ Veja os **diagramas detalhados** em [`docs/architecture.md`](docs/architecture.m
 
 ## ✍️ Critérios da Sprint (Cobertura)
 
-- ✅ **ASP.NET Core Web API + EF Core CRUD** (35%)
-- ✅ **Consultas LINQ** (10%)
-- ✅ **Documentação** (10%)
-- ✅ **Arquitetura em diagramas** (10%)
-- ➖ **Publicação em Cloud** (15%) — *escopo descartado por solicitação*
-- ➖ **Endpoints externos** (20%) — *opcional; exemplos inclusos e removíveis*
+- ✅ **ASP.NET Core Web API + EF Core CRUD**
+- ✅ **Consultas LINQ**
+- ✅ **Documentação**
+- ✅ **Arquitetura em diagramas**
+- ✅ **Endpoints externos** (20%) — *opcional, porém feito*
 
 ---
 
@@ -196,5 +193,8 @@ Veja os **diagramas detalhados** em [`docs/architecture.md`](docs/architecture.m
 Uso acadêmico. Adapte livremente para fins educacionais.
 
 ---
-
-> _Última atualização: 2025-10-20_
+Kauê Pastori Teixeira
+Nicolas Boni
+Rodrigo Viana
+Enzo Sartorelli
+Eduardo Nistal
